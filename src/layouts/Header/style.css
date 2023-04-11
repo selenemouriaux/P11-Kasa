@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoDesktop{
+  display: block;
+}
+.logoMobile{
+  display: none;
+}
+.navItem {
+  text-align: end;
+  display: inline-block;
+  width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .logoDesktop{
+    display: none;
+  }
+  .logoMobile{
+    display: block;
+  }
+
+  .navItem {
+    text-transform: uppercase;
+  }
+
+}

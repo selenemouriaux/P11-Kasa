@@ -1,0 +1,14 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #FF6060;
+  box-sizing: border-box;
+}
+
+.Wrapper {
+  padding: 0;
+  margin: 40px 100px 0;
+  min-height: calc(100vh - 40px);
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
