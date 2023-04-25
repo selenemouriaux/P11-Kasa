@@ -1,13 +1,20 @@
 import Header from "../../layouts/Header";
 import Footer from "../../layouts/Footer";
+import Banner from "../../components/Banner";
+import Collapse from "../../components/Collapse";
+import about from "../../data/about";
 
 const About = () => {
   return (
     <>
       <Header/>
-      <h2>
-        PAGE : A Propos
-      </h2>
+      <Banner alt="paysage montagneux"/>
+      {about.map(({title, content}) => (
+        <Collapse title={title}>
+          {content}
+        </Collapse>
+      ))
+      }
       <Footer/>
     </>
   )

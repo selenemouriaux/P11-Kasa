@@ -1,0 +1,36 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 223px;
+  border-radius: 25px;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.bannerTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 111px;
+   }
+  .maxedOut {
+    height: 223px;
+  }
+}

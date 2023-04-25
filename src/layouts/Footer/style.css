@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-self: flex-end;
+  width: 100vw;
+  background-color: black;
+  height: 150px;
+  margin-left: -100px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .Footer {
+    margin-left: -20px;
+  }
+}
