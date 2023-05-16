@@ -14,7 +14,6 @@ const HouseFocus = () => {
       <div className="kasaCarousel">
         <kasa.Carousel pictures={logement.pictures} alt={logement.title}/>
       </div>
-      {/*<div className="kasaCaption">*/}
         <div className="kasaTitle">
           <kasa.Title title={logement.title} location={logement.location}/>
           <kasa.Tags tags={logement.tags}/>
@@ -23,7 +22,6 @@ const HouseFocus = () => {
           <kasa.Host host={logement.host}/>
           <kasa.Rating rating={Number(logement.rating)}/>
         </div>
-      {/*</div>*/}
       <div className="kasaInfo">
         <Collapse title="Description" description={logement.description}/>
         <Collapse title="Équipements" description={logement.equipments}/>

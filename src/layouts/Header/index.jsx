@@ -2,8 +2,6 @@ import {Link, useLocation} from "react-router-dom";
 import logoMobile from '../../assets/images/kasaMobile.png'
 import logoDesktop from '../../assets/images/kasaDesktop.png'
 import './style.css'
-import about from "../../assets/images/about-backgroud.jpg";
-import home from "../../assets/images/home-background.jpg";
 
 const Header = () => {
   const { pathname } = useLocation();
