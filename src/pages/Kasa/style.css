@@ -1,0 +1,41 @@
+.kasa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kasaCarousel {
+  width: 100%;
+}
+
+.kasaTitle {
+  width: 65%;
+}
+.kasaHost {
+  width: 35%;
+}
+
+.kasaInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .kasaHost {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .kasaInfo {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .kasaTitle {
+    width: 100%;
+  }
+}

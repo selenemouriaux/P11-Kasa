@@ -1,0 +1,25 @@
+.ratingBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: calc(100% - 64px);
+}
+
+.star {
+  height: 25px;
+  margin: 0 5px;
+}
+
+.full {
+  fill: #FF6060;
+}
+
+.empty {
+  fill: #E3E3E3;;
+}
+
+@media screen and (max-width: 767px) {
+  .ratingBox {
+    height: auto;
+  }
+}

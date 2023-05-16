@@ -1,12 +1,9 @@
 import {Link} from "react-router-dom";
-import Header from "../../layouts/Header";
 import './style.css'
-import Footer from "../../layouts/Footer";
 
 const NotFound = () => {
   return (
     <>
-      <Header/>
       <div className="container">
         <div>
         <h2 className="notFound">
@@ -18,7 +15,6 @@ const NotFound = () => {
         </div>
         <Link className="backHome" to="/">Retourner à la page d'accueil</Link>
       </div>
-      <Footer />
     </>
   )
 }

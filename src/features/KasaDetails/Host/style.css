@@ -1,0 +1,39 @@
+.hostBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 64px;
+}
+
+.forceLineBreak {
+  width: 100%;
+}
+
+.hostId {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: right
+}
+
+.hostImg {
+  flex: 0 1 64px;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .hostId {
+    font-size: 12px;
+  }
+  .hostBox {
+    height: 32px;
+
+  }
+  .hostImg {
+    width: 32px;
+  }
+}
